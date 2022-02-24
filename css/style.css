@@ -1,0 +1,78 @@
+/* this is my css file for this project*/
+div {
+   /* border: solid blue;*/
+    margin-top: 1rem;
+    padding: 2rem;
+
+}
+nav ul{
+margin: 0;
+padding: 20px;
+background-color: rgb(24, 23, 23);
+overflow: hidden;
+}
+nav li{
+    display: inline;
+    /*border: solid brown;*/
+    padding: 1rem;
+}
+nav li a{
+display:inline;
+color: #E6487F;
+font-size: large;
+text-align: center;
+padding: 15px 20px;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+nav li a:hover{
+    background-color: #111;s
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #191919;
+    color:#EEEBE7;
+}
+img {
+    /*border: 10px solid green;*/
+    max-width: 100%;
+    object-fit: div;
+  ;
+    
+}
+h1{
+    border: 5px hidden ;
+   text-align: center;
+}
+h2{
+    text-align: center;
+    border-style:10px hidden;
+}
+blockquote{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+}
+cite{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.bigbold{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+
+ul li{
+    list-style: none;
+    }
+ol li{
+    list-style: none;
+}
+footer{
+    border-style: groove;
+    border-color: lightblue;
+    padding: 5 px;
+}
